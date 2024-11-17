@@ -1,0 +1,61 @@
+/* Custom styles for hero section */
+.hero {
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://via.placeholder.com/1500x800') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.hero-content p {
+    font-size: 1.5em;
+}
+
+.hero .btn-primary {
+    padding: 10px 30px;
+    font-size: 1.2em;
+    border-radius: 25px;
+}
+
+/* Section Headings */
+.section h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Profile Image Styling */
+.profile-img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border: 5px solid #ff4500;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer and Responsive Styling */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+@media (max-width: 768px) {
+    .hero-content h2 {
+        font-size: 2em;
+    }
+
+    .hero-content p {
+        font-size: 1.2em;
+    }
+
+    .skills-grid, .project-grid {
+        grid-template-columns: 1fr;
+    }
+}
